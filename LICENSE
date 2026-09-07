@@ -1,0 +1,66 @@
+Copyright (c) 2026 Marcus Mayrhofer, Una Radojičić, Horst Lewitschnig,
+Peter Filzmoser
+
+This repository contains two kinds of material, licensed separately.
+
+
+================================================================================
+1. CODE  --  MIT License
+================================================================================
+
+Applies to all source files in this repository: the R scripts in
+1_reproduce_figures/ and 2_run_simulations/, the shared helpers in functions/,
+and check_packages.R.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+2. RESULTS AND FIGURES  --  Creative Commons Attribution 4.0 International
+================================================================================
+
+Applies to the simulation results and the figures generated from them: the
+tables in 1_reproduce_figures/stored_results/ and the PDF files in the plots/
+folders.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit. The full license text is
+at https://creativecommons.org/licenses/by/4.0/legalcode and a summary at
+https://creativecommons.org/licenses/by/4.0/
+
+Please attribute by citing the accompanying paper:
+
+  Mayrhofer, M., Radojičić, U., Lewitschnig, H. and Filzmoser, P.
+  Explainable Outlier Detection for Multivariate Functional Data.
+
+
+================================================================================
+3. MATERIAL NOT COVERED BY THE ABOVE
+================================================================================
+
+MFIF.py is third-party software, redistributed unmodified under its own
+license; see MFIF_LICENSE.txt. It is not covered by the licenses above.
+
+The data of the El Niño example (1_reproduce_figures/nino_nina/data/) are
+published by the U.S. Climate Prediction Center and are subject to their terms
+rather than to the licenses above.
+
+The data of the welding and fertility examples are not contained in this
+repository and remain subject to the terms of their respective providers; see
+the README.md files in the corresponding data/ folders.

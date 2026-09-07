@@ -1,0 +1,8 @@
+# R session leftovers -- never part of the release.
+# Note: .RData is NOT ignored, the stored result tables are deliberately shipped.
+.Rhistory
+.Rapp.history
+Rplots.pdf
+.Rproj.user/
+.Ruserdata
+*.Rproj
